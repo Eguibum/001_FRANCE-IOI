@@ -8,7 +8,7 @@ Si tu arrives sur cette page, c'est que tu as les neurones en bouillie d'avoir s
 
 France-IOI est un site qui enseigne la programmation et l'algorithmique. Gratuit, en français (anglophobes, c'est pour vous), le site est extrêmement bien construit car il part de zéro et te pousse à progresser par le biais d'exercice très bien pensés qui te force à te triturer les méninges pour acquérir la gymnastique cérébrale nécessaire à la résolution des problèmes. Une belle longue phrase simplement pour dire que tu vas apprendre à réfléchir et à penser avec des coups d'avance. Un peu comme aux échecs donc !
 
-## Pourquoi ce repos ?
+## Pourquoi ce repo ?
 
 Parce que si les exercices du début se retrouvent souvent sur différents forums, et qu'il est donc facile d'avoir des indice, ce n'est pas le cas de tous et passés un certain niveau, ils sont même inexistants. Comme si personne n'avait pris la peine d'aller au delà d'un certain chapitre :/
 Pour avoir moi-même passé parfois 2/3 jours sur un seul exercice et soumis un nombre impressionnant de code, je sais à quel point ça peut être frustrant de tourner autour de la réponse à cause d'une virgule, d'un ; ou d'une variable mal initialisée. Qu'à cela ne tienne, je vais réunir dans ce repo les conseils et corrections de tous les exercices que je parviens à faire !
