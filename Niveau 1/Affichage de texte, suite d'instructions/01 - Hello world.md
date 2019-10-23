@@ -10,7 +10,7 @@ imprimer Hello world!
 
 <details>
   <summary>Solution</summary>
-    print("Hello world!")
+  <code>print("Hello world!")</code>
 </details>
 
 ## Java
