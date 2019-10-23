@@ -10,7 +10,9 @@ imprimer Hello world!
 
 <details>
   <summary>Solution</summary>
-  <code>print("Hello world!")</code>
+  ```python
+  print("Hello world!")
+  ```
 </details>
 
 ## Java
