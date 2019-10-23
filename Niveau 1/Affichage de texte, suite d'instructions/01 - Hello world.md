@@ -19,11 +19,11 @@ La subtilité dans Java est qu'il y a toujours un code minimum à afficher, que 
 
 <details>
   <summary>Code minimal Java</summary>
-  class Main {
+  ```class Main {
     public static void main(String[] args) {
       // ton code ici
     }
-  }
+  }```
 </details>
 
 <details>
