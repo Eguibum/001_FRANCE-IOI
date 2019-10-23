@@ -10,9 +10,7 @@ imprimer Hello world!
 
 <details>
   <summary>Solution</summary>
-  ```python
   print("Hello world!")
-  ```
 </details>
 
 ## Java
@@ -21,22 +19,18 @@ La subtilité dans Java est qu'il y a toujours un code minimum à afficher, que 
 
 <details>
   <summary>Code minimal Java</summary>
-  <code>
-    class Main {
-      public static void main(String[] args) {
-        // ton code ici
-      }
+  class Main {
+    public static void main(String[] args) {
+      // ton code ici
     }
-  </code>
+  }
 </details>
 
 <details>
   <summary>Solution</summary>
-  <code>
-    class Main {
-      public static void main(String[] args) {
-        System.out.println("Hello world!");
-      }
+  class Main {
+    public static void main(String[] args) {
+      System.out.println("Hello world!");
     }
-  </code>
+  }
 </details>
