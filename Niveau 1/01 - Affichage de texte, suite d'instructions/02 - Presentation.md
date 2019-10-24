@@ -30,7 +30,7 @@ print("Ma devise est 'Parler peu mais parler bien'.")
 Code minimal Java
 
 <details>
-  <summary>Solution</summary>
+  <summary>Minimum fonctionnel</summary>
 
 ```Java
   class Main {
@@ -43,7 +43,7 @@ Code minimal Java
 </details>
 
 </br>
-Et avec le message à afficher :)
+Et avec les instructions :)
 </br>
 </br>
 

@@ -25,7 +25,7 @@ print("Hello world!")
 La subtilité dans Java est qu'il y a toujours un code minimum à afficher, que tu ferais bien d'apprendre par coeur le plus rapidement possible :)
 
 <details>
-  <summary>Solution</summary>
+  <summary>Minimum fonctionnel</summary>
 
 ```Java
   class Main {
@@ -38,7 +38,7 @@ La subtilité dans Java est qu'il y a toujours un code minimum à afficher, que 
 </details>
 
 </br>
-Et avec le message à afficher :)
+Et avec les instructions :)
 </br>
 </br>
 

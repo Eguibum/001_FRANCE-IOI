@@ -43,7 +43,7 @@ droite()
 Code minimal Java
 
 <details>
-  <summary>Solution</summary>
+  <summary>Minimum fonctionnel</summary>
 
 ```Java
   class Main {
@@ -56,7 +56,7 @@ Code minimal Java
 </details>
 
 </br>
-Et avec le module et les instructions :)
+Et avec les instructions :)
 </br>
 </br>
 
