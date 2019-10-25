@@ -13,7 +13,7 @@ _Le pseudo-code est important, c'est l'étape qui permet de mettre à plat ses i
 Cet exercice est le premier à réellement prendre la tête, car il faut imbriquer des boucles. Attention, prends bien en compte le fait que des boucles imbriquées ne peuvent PAS avoir le même nom ! Sache que tu peux remplacer "loop" par le nom que tu veux tant que c'est clair et que tu t'y retrouves (on évitera cependant les noms type x, y, cft, et autres lâché de doigts aléatoire sur le clavier n__n").
 
 Sinon d'un poids de vu gymnastique cérébrale, il faut décomposer chaque étape.
-Tu veux répéter x fois XO sur une ligne, puis OX sur une ligne en dessous, et tu veux répéter x fois ces 2 lignes. C'est là que l'imbrication et l'indentation sont importentes.
+Tu veux répéter x fois XO sur une ligne, puis OX sur une ligne en dessous, et tu veux répéter x fois ces 2 lignes. C'est là que l'imbrication et l'indentation sont importantes.
 
 Comme c'est un damier de 40 sur 40 et que tout est multiple de 2, on va partir là dessus, voilà ce que donne le pseudo-code.
 

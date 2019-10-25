@@ -1,4 +1,4 @@
-# TITRE DE L'EXERCICE
+# Le juste prix
 
 ## Pseudo-Code
 
