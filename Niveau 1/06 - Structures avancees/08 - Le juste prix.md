@@ -104,7 +104,7 @@ class Main
 </details>
 
 <details>
-  <summary>Solution 1</summary>
+  <summary>Solution 2</summary>
 
 
 ```Java
