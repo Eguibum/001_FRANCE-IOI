@@ -23,4 +23,4 @@ Bah, rien de plus ! Ce repos est entièrement gratuit et disponible à tous, bon
 
 Que la force soit avec vous !
 
-PS : Je ne suis pas spécialement fan de Star Wars mais j'ai pas de référence Harry Potter qui peuvent au thème, même si nous sommes des sorciers et des sorcières du code :D
+PS : Je ne suis pas spécialement fan de Star Wars mais j'ai pas de référence Harry Potter qui peuvent coller au thème, même si nous sommes des sorciers et des sorcières du code :D
