@@ -1,4 +1,4 @@
-# TITRE DE L'EXERCICE
+# Préparation de l'onguent
 
 ## Pseudo-Code
 
@@ -10,10 +10,12 @@ _Le pseudo-code est important, c'est l'étape qui permet de mettre à plat ses i
 
 **Les exemples du sujet sont d'excellents supports pour vous assurer que vous avez bien compris le problème posé. À chaque fois, essayez pour chaque exemple de calculer vous-même le résultat à partir des données d'entrée, et vérifiez que la sortie correspond. Si vous n'êtes pas d'accord avec l'exemple, vous aurez beaucoup de mal à résoudre l'exercice !**
 
-Résumé de l'exercice
+On utilise un tableau dans lequel on va stocker les quantités nécessaires pour chaque ingrédient. Il suffit alors de lire le numéro de l'ingrédient demandé et d'afficher la valeur du tableau correspondante. 
 
 ```
-
+quantite <- [500, 180, 650, 25, 666, 42, 421, 1, 370, 211]
+ingredient <- LireEntier()
+Afficher quantite[ingredient]
 ```
 
 ## Python
@@ -22,7 +24,9 @@ Résumé de l'exercice
   <summary>Solution</summary>
 
 ```Python
-
+quantite = [500, 180, 650, 25, 666, 42, 421, 1, 370, 211]
+ingredient = int(input())
+print(quantite[ingredient])
 ```
 
 </details>
@@ -54,7 +58,17 @@ Et avec les instructions :)
 
 
 ```Java
-
+import algorea.Scanner;
+class Main
+{
+   public static void main(String[] args)
+   {
+      Scanner entrée = new Scanner(System.in);
+      int[] quantite = {500, 180, 650, 25, 666, 42, 421, 1, 370, 211};
+      int ingredient = entrée.nextInt();
+      System.out.println(quantite[ingredient]);
+   }
+}
 ```
 
 </details>
