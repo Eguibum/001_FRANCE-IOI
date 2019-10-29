@@ -1,4 +1,4 @@
-# TITRE DE L'EXERCICE
+# Inscription d'étudiants
 
 ## Pseudo-Code
 
@@ -10,7 +10,7 @@ _Le pseudo-code est important, c'est l'étape qui permet de mettre à plat ses i
 
 **Les exemples du sujet sont d'excellents supports pour vous assurer que vous avez bien compris le problème posé. À chaque fois, essayez pour chaque exemple de calculer vous-même le résultat à partir des données d'entrée, et vérifiez que la sortie correspond. Si vous n'êtes pas d'accord avec l'exemple, vous aurez beaucoup de mal à résoudre l'exercice !**
 
-Résumé de l'exercice
+On commence par lire le nom complet, puis on regarde si le premier caractère du nom est inférieur ou égal au caractère "F". Si oui alors c’est la première personne, sinon on compare ce caractère à la lettre "P", pour déterminer si c’est la seconde ou la troisième personne. 
 
 ```
 
@@ -22,7 +22,13 @@ Résumé de l'exercice
   <summary>Solution</summary>
 
 ```Python
-
+nom = input()
+if nom[0] <= "F":
+   print(1)
+elif nom[0] <= "P":
+   print(2)
+else:
+   print(3)
 ```
 
 </details>
@@ -54,7 +60,29 @@ Et avec les instructions :)
 
 
 ```Java
-
+import algorea.Scanner;
+class Main
+{
+   public static void main(String[] args)
+   {
+      Scanner entrée = new Scanner(System.in);
+      String nom = entrée.next();
+      char premier = nom.charAt(0);
+      
+      if (premier < 'G')
+      {
+         System.out.println(1);
+      }
+      else if (premier > 'P')
+      {
+         System.out.println(3);
+      }
+      else
+      {
+         System.out.println(2);
+      }
+   }
+}
 ```
 
 </details>

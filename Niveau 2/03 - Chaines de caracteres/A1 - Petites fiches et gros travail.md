@@ -1,4 +1,4 @@
-# TITRE DE L'EXERCICE
+# Petites fiches et gros travail
 
 ## Pseudo-Code
 
@@ -10,7 +10,13 @@ _Le pseudo-code est important, c'est l'étape qui permet de mettre à plat ses i
 
 **Les exemples du sujet sont d'excellents supports pour vous assurer que vous avez bien compris le problème posé. À chaque fois, essayez pour chaque exemple de calculer vous-même le résultat à partir des données d'entrée, et vérifiez que la sortie correspond. Si vous n'êtes pas d'accord avec l'exemple, vous aurez beaucoup de mal à résoudre l'exercice !**
 
-Résumé de l'exercice
+ L’algorithme à utiliser est simple, car il suffit de faire 6 fois (donc à l’aide d’une boucle) les opérations suivantes :
+
+    Lire la ligne contenant le nom de l’auteur
+    Lire la ligne contenant le titre du livre
+    Afficher le titre du livre
+    Afficher le nom de l’auteur
+
 
 ```
 
@@ -22,7 +28,11 @@ Résumé de l'exercice
   <summary>Solution</summary>
 
 ```Python
-
+for idLivre in range(6):
+   nomAuteur = input()
+   titreLivre = input()
+   print(titreLivre)
+   print(nomAuteur)
 ```
 
 </details>
@@ -54,7 +64,21 @@ Et avec les instructions :)
 
 
 ```Java
-
+import algorea.Scanner;
+class Main
+{  
+   public static void main(String[] args)
+   {
+      Scanner input = new Scanner(System.in);
+      for (int livre = 0; livre < 6; livre = livre + 1)
+      {
+         String auteur = input.nextLine();
+         String titre  = input.nextLine();
+         System.out.println(titre);
+         System.out.println(auteur);
+      }
+   }
+}
 ```
 
 </details>

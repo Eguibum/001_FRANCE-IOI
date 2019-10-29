@@ -10,7 +10,7 @@ _Le pseudo-code est important, c'est l'étape qui permet de mettre à plat ses i
 
 **Les exemples du sujet sont d'excellents supports pour vous assurer que vous avez bien compris le problème posé. À chaque fois, essayez pour chaque exemple de calculer vous-même le résultat à partir des données d'entrée, et vérifiez que la sortie correspond. Si vous n'êtes pas d'accord avec l'exemple, vous aurez beaucoup de mal à résoudre l'exercice !**
 
-Résumé de l'exercice
+On utilise une boucle pour lire chaque ligne de texte, l’une après l’autre. Pour chaque ligne, il faut alors afficher les caractères en partant de la fin. 
 
 ```
 
@@ -22,7 +22,13 @@ Résumé de l'exercice
   <summary>Solution</summary>
 
 ```Python
-
+nbLignes = int(input())
+for loop in range(nbLignes):
+   ligneTexte = input()
+   longueur = len(ligneTexte)
+   for idCaractere in range(longueur):
+      print(ligneTexte [longueur - 1 - idCaractere], end = "")
+   print()
 ```
 
 </details>
@@ -54,7 +60,25 @@ Et avec les instructions :)
 
 
 ```Java
-
+import algorea.Scanner;
+class Main
+{
+   public static void main(String [] args)
+   {
+      Scanner input = new Scanner(System.in);
+      
+      int nbLignes = input.nextInt();
+      for (int iLigne = 0; iLigne < nbLignes; iLigne = iLigne + 1)
+      {
+         String ligne = input.nextLine();
+         for (int iCar = ligne.length() - 1; iCar >= 0; iCar = iCar - 1)
+         {
+            System.out.print(ligne.charAt(iCar));
+         }
+         System.out.println("");
+      }
+   }
+}
 ```
 
 </details>

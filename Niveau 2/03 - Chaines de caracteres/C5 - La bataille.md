@@ -1,4 +1,4 @@
-# TITRE DE L'EXERCICE
+# La bataille
 
 ## Pseudo-Code
 
